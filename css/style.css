@@ -1,47 +1,21 @@
     /*reset*/
 *{font-family: "Roboto Slab", serif;
-
 }
-    /*header*/
-.top{
-display: flex;
-flex-flow: row wrap;
-justify-content: center;
-justify-content: space-evenly;
-align-items: center;
-position: sticky ;
-top: 0;
-z-index: 100;
-background-color: white;
+ /*header*/
+.custom-carousel{
+margin: 30px;
 }
-.logo{
-width: 300px;
-margin-right: 70px;
+.custom-carousel {
+max-width: 100%;
+margin: 0 auto; 
+border-radius: 10px; 
+overflow: hidden; 
 }
-.logo img{
-width: 100%;
-}
-.buscador{
-display: flex;
-margin-right: 20px;
-}
-.menu-list{
-margin-left: 30px;
-display: flex;
-flex-flow: column;
-justify-content: end;
-align-items: center;
-}
-.menu-list li{
-list-style-type: none;
-margin: 3px;
-}
-.menu-list a{
-color: black;
-text-decoration: none;
-font-weight: 600;
-}
-    /*main*/
+.custom-carousel .carousel-inner img {
+width: 100%; 
+height: auto; 
+}   
+/*main*/
 .prendas{
 width: 300px;
 }
@@ -51,9 +25,9 @@ width: 200px;
 }
 }
 @media only screen and (min-width:501px) and (max-width:960px){
-    .prendas{
-    width: 250px;
-    }
+.prendas{
+width: 250px;
+}
 }
 .prendas img{
 width: 100%;
@@ -74,19 +48,30 @@ margin: 50px;
 .info {
 display: flex;
 flex-flow: row;
-justify-content: space-evenly;
+justify-content: space-around;
 }
 .info div{
 display: flex;
 flex-flow: column;
 align-items: center;
+margin: 40px;
+}
+@media only screen and (max-width:500px) {
+.info div{
+margin: 20px;
+}   
+}
+@media only screen and (min-width:501px)and(max-width:960px){
+.info div{
+margin: 30px;
+}
 }
 .info div ul{
 margin-top: 2px;
 }
-.info h5{
-text-decoration: underline;
-font-weight: 600;
+.info h6{
+text-decoration: none;
+font-weight: 400;
 margin-bottom: 10px;
 }
 .info li{
@@ -99,33 +84,6 @@ font-weight: 250;
 font-size: small;
 }
 /*prendas*/
-.product{
-display: flex;
-justify-content: center;
-align-items: center;
-flex-flow: column;
-}
-.logo-shop{
-    width: 300px; 
-}
-.logo-shop img{
-width: 100%;
-}
-.shop{
-display: flex;
-flex-flow: column;
-}
-.shop form{
-display: flex;
-align-items: center;
-flex-flow: column;
-margin: 20px;
-
-}
-.shop button{
-color:rgb(247, 247, 247);
-background-color: black;
-}
 .card{
 margin-top: 3rem;
 margin-left: 13rem;
@@ -164,38 +122,30 @@ text-decoration: none;
 font-size: small;
 margin: 10px 0;
 }
-.datos nav button{
-color: white;
-background-color: black;
-width: 100px;
-font-size: small;
-}
 .datos div{
 display: flex;
 flex-flow: column;
 }
-.info{
+.datos nav button{
+width: 150px;
+font-size: small;
+}
+.cuenta{
 display: flex;
 justify-content: center;
 align-items: center;
 }
-.info button{
+.cuenta h6{
+font-size: smaller;
+font-weight: 400;
+margin-top: 10px;
+}
+.cuenta button{
 color: white;
 background-color: black;
 width: 100px;
 font-size: small;
 }
-/*carousel*/
-.custom-carousel{
-margin: 30px;
-}
-.custom-carousel {
-max-width: 100%;
-margin: 0 auto; 
-border-radius: 10px; 
-overflow: hidden; 
-}
-.custom-carousel .carousel-inner img {
-width: 100%; 
-height: auto; 
+.registro button{
+width: 100px;
 }
