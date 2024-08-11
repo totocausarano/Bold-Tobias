@@ -149,3 +149,21 @@ font-size: small;
 .registro button{
 width: 100px;
 }
+/*ayuda*/
+.ayuda{
+margin-top: 30px;
+margin-bottom: 30px;
+}
+.ayuda h4{
+text-decoration: underline;
+}
+.contact h4{
+text-decoration: underline;
+}
+.accordion-body{
+font-weight: 200;
+}
+/*carrito*/
+.carrito{
+margin-top: 50px;
+}
