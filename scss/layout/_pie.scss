@@ -1,0 +1,26 @@
+.info {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    .div{
+        @include alineacion-centro;
+        margin: 40px;
+        .ul{
+            margin-top: 2px;
+        }
+    }
+    .h6{
+        text-decoration: none;
+        font-weight: 400;
+        margin-bottom: $margin-sm;
+    }
+    .li{
+        list-style-type: disc;
+        .a{
+            color: $color-principal;
+            text-decoration: none;
+            font-weight: 250;
+            font-size: small;
+        }
+    }
+}

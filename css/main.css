@@ -1,0 +1,180 @@
+* {
+  font-family: "Roboto Slab", serif;
+}
+
+.custom-carousel {
+  margin: 30px;
+  max-width: 100%;
+  margin: 0 auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.custom-carousel .custom-inner .img {
+  width: 100%;
+  height: auto;
+}
+
+.prendas {
+  width: 300px;
+}
+.prendas .img {
+  width: 100%;
+}
+.prendas .a {
+  color: #000000;
+  text-decoration: none;
+  font-size: medium;
+}
+
+.org {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  margin: 50px;
+}
+
+.info {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+}
+.info .div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+}
+.info .div .ul {
+  margin-top: 2px;
+}
+.info .h6 {
+  text-decoration: none;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.info .li {
+  list-style-type: disc;
+}
+.info .li .a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: 250;
+  font-size: small;
+}
+
+.card {
+  margin-top: 3rem;
+  margin-left: 13rem;
+}
+
+.card-title {
+  margin-top: 20px;
+}
+
+.card-text {
+  margin-top: 20px;
+}
+
+.dropdown .a {
+  margin-top: 30px;
+}
+
+.comprar .button {
+  margin-top: 30px;
+}
+
+.datos {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-top: 50px;
+}
+.datos .nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+.datos .nav .form {
+  margin: 10px;
+}
+.datos .nav .a {
+  color: #000000;
+  text-decoration: none;
+  font-size: small;
+  margin: 10px 0;
+}
+.datos .nav .button {
+  width: 150px;
+  font-size: small;
+}
+.datos .div {
+  display: flex;
+  flex-flow: column;
+}
+
+.cuenta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cuenta .h6 {
+  font-size: smaller;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.cuenta .button {
+  color: #ffffff;
+  background-color: #000000;
+  width: 100px;
+  font-size: small;
+}
+
+.registro .button {
+  width: 100px;
+}
+
+.ayuda {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.ayuda .h4 {
+  text-decoration: underline;
+}
+
+.contact .h4 {
+  text-decoration: underline;
+}
+
+.accordion-body {
+  font-weight: 200;
+}
+
+.carrito {
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 500px) {
+  .prendas {
+    width: 200px;
+  }
+}
+@media only screen and (min-width: 501px) and (max-width: 960px) {
+  .prendas {
+    width: 250px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .info div {
+    margin: 20px;
+  }
+}
+@media only screen and (min-width: 501px) and (max-width: 960px) {
+  .info div {
+    margin: 30px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

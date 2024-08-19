@@ -1,0 +1,5 @@
+@mixin alineacion-centro{
+    display: $display;
+    justify-content:$justify;
+    align-items: $align;
+}

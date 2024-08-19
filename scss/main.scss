@@ -1,0 +1,14 @@
+//reset//
+@import'./config/vars';
+@import'./config/mixing';
+@import './config/reset';
+//layout//
+@import './layout/cabecera';
+@import'./layout/principal';
+@import './layout/pie';
+@import'./layout/prendas';
+@import'./layout/sesion';
+@import'./layout/ayuda';
+@import'./layout/carrito';
+//mediaqueries//
+@import'./layout/mq';

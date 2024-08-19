@@ -1,0 +1,13 @@
+.custom-carousel{
+    margin: $margin-l;
+    max-width: 100%;
+    margin: 0 auto; 
+    border-radius: 10px; 
+    overflow: hidden; 
+    .custom-inner{
+        .img{
+            width: 100%; 
+            height: auto; 
+        }
+    }
+}

@@ -14,7 +14,7 @@ overflow: hidden;
 .custom-carousel .carousel-inner img {
 width: 100%; 
 height: auto; 
-}   
+}
 /*main*/
 .prendas{
 width: 300px;
@@ -33,7 +33,7 @@ width: 250px;
 width: 100%;
 }
 .prendas a{
-color:black;
+color:#000000;
 text-decoration: none;
 font-size: medium;
 }
@@ -141,7 +141,7 @@ font-weight: 400;
 margin-top: 10px;
 }
 .cuenta button{
-color: white;
+color: #ffffff;
 background-color: black;
 width: 100px;
 font-size: small;
@@ -167,3 +167,18 @@ font-weight: 200;
 .carrito{
 margin-top: 50px;
 }
+/*animaciones*/
+.prendas {
+    transition: transform 0.3s ease-in-out;
+}
+.prendas:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px ;
+}
+.nav-item{
+    transition: transform 0.3s ease-in-out;
+}   
+.nav-item:hover{
+    transform: scale(1.1);
+}
+

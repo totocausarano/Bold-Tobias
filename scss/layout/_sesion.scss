@@ -1,0 +1,46 @@
+.datos{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-top:$margin-xl;
+    .nav{
+        @include alineacion-centro;
+        flex-flow: column;
+        .form{
+            margin: 10px;
+        }
+        .a{
+            color:$color-principal;
+            text-decoration: none;
+            font-size: small;
+            margin: $margin-sm 0; 
+        }
+        .button{
+             width: 150px;
+            font-size: small;
+        }
+    }
+    .div{
+        display: flex;
+        flex-flow: column;
+    }
+}
+.cuenta{
+    @include alineacion-centro;
+    .h6{
+        font-size: smaller;
+        font-weight: 400;
+        margin-top: $margin-sm;
+    }
+    .button{
+        color:$color-bg;
+        background-color:$color-principal;
+        width: 100px;
+        font-size: small;
+    }
+}
+.registro{
+        .button{
+            width: 100px;
+        }
+}

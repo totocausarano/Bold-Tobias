@@ -1,0 +1,17 @@
+.prendas{
+    width: 300px;
+    .img{
+      width: 100%;  
+    }
+    .a{
+      color:$color-principal;
+    text-decoration: none;
+    font-size: medium;
+    }  
+}
+.org{
+  @include alineacion-centro;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin: $margin-xl;
+}
