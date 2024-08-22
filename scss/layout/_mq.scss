@@ -18,3 +18,70 @@
     margin: $margin-l;
     }
 }
+@media only screen and (max-width:500px){
+    .card{
+    width: 300px;
+    }
+    .card-title{
+        font-size: large;
+    }
+    .card-text{
+        font-size: small;
+    }
+    .dropdown a {
+        font-size: small;
+    }
+}
+
+@media only screen and (min-width:501px) and (max-width:960px){
+    .card{
+        width: 800px;
+        }
+        .card-title{
+            font-size: x-large;
+        }
+        .card-text{
+            font-size: medium;
+        }
+        .dropdown a {
+            font-size: medium;
+        }
+}
+@media only screen and (max-width: 500px) {
+    .ayuda h4, .contact h4 {
+      font-size: 1.2rem; 
+    }
+    .contact h6 {
+      font-size: 1rem; 
+    }
+    .accordion-button {
+      font-size: 0.9rem; 
+    }
+    .form-control {
+      font-size: 0.9rem; 
+      padding: 8px; 
+    }
+    textarea.form-control {
+      font-size: 0.9rem; 
+    }
+  }
+  @media only screen and (min-width: 501px) and (max-width: 960px) {
+    .ayuda h4, .contact h4 {
+      font-size: 1.5rem; 
+    }
+  
+    .contact h6 {
+      font-size: 1.2rem; 
+    }
+  
+    .accordion-button {
+      font-size: 1rem;
+    }
+    .form-control {
+      font-size: 1rem; 
+      padding: 10px; 
+    }
+    textarea.form-control {
+      font-size: 1rem;
+    }
+  }
